@@ -30,7 +30,5 @@ public class AttackState : State
         if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) > 1.5f)
             if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) <= enemy.sightRange)
                 enemy.ChangeState(new ApproachState(enemy));
-        if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) >= enemy.sightRange)
-            enemy.ChangeState(new PatrolState(enemy));
     }
 }

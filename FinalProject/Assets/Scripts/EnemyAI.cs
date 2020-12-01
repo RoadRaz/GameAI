@@ -35,7 +35,7 @@ public class EnemyAI : MonoBehaviour
         if (currentState != null)
             currentState.OnExit();
         currentState = state;
-        // Console state name
+        // Editor Hierarchy state name
         gameObject.name = "Enemy - " + state.GetType().Name;
         if (currentState != null)
             currentState.OnEnter();

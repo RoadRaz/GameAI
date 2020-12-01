@@ -31,7 +31,7 @@ public class ApproachState : State
         }
         if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) >= enemy.sightRange)
         {
-            Vector3 searchTrail = enemy.transform.position - enemy.player.transform.position;
+            Vector3 searchTrail = (enemy.transform.position - enemy.player.transform.position);
             nmAgent.destination = searchTrail;
             enemy.ChangeState(new PatrolState(enemy));
         }

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="State" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAABAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyAI" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAhAAAIAAIAAAAAAAAAAABAAEBAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\EnemyAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApproachState" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\States\ApproachState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackState" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\States\AttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleState" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\States\IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatrolState" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABIAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\States\PatrolState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
