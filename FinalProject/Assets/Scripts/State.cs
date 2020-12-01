@@ -11,6 +11,7 @@ public abstract class State
         this.enemy = enemy;
     }
 
+    // Methods to be overridden individual states
     public virtual void OnEnter() { }
 
     public virtual void UpdateState() { }

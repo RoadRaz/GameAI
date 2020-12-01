@@ -24,11 +24,15 @@ public class IdleState : State
     {
         base.UpdateState();
         timer += Time.deltaTime;
+
+        // If the player is inside the view range and view angle
         if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) <= enemy.sightRange)
         {
             if (Vector3.Angle(enemy.transform.forward, enemy.player.transform.position - enemy.transform.position) <= enemy.sightAngle)
                 enemy.ChangeState(new ApproachState(enemy));
         }
+
+        // If the player waits for certain time, start patrolling again
         if (timer >= idleTime)
             enemy.ChangeState(new PatrolState(enemy));
     }
